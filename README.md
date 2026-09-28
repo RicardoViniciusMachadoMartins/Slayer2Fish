@@ -73,8 +73,12 @@ python gui.py
 1. Abra o jogo e deixe-o na tela principal (modo janela sem bordas costuma funcionar melhor).
 2. Abra o AutoFish e clique em **DEFINIR ÁREA DO MINIJOGO (F2)**.
 3. Posicione e redimensione a caixa verde sobre a barra do minijogo e clique em **[ SAVE ]**.
-4. Pressione **F1** para iniciar. Pressione **F1** de novo para pausar.
-5. Em caso de problema, aperte **ESC**.
+   - Clique e arraste sobre o texto **"Minijogo"** (na letra **M**) para mover a área.
+   - Utilize a ponta inferior direita (**SAVE**) para redimensionar.
+4. Certifique-se de que a tecla **Shift** não está pressionada ou travada (o mouse não pode estar sob efeito do Shift).
+5. Posicione o cursor do mouse sobre a água onde deseja arremessar a linha.
+6. Pressione **F1** para iniciar. Pressione **F1** de novo para pausar.
+7. Em caso de problema, aperte **ESC**.
 
 ## ⚙️ Configurações (`config.json`)
 
