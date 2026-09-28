@@ -26,11 +26,10 @@ Os atalhos `F1` e `F2` podem ser trocados na aba **Avançado**.
 ## 📁 Estrutura do projeto
 
 ```
-fish_teste/
+Slayer2/
 ├── gui.py            # Interface gráfica (ponto de entrada)
 ├── Slayer2_Fish.py   # Lógica da macro e seletor de área
 ├── gui.spec          # Configuração do PyInstaller
-├── config.json       # Configurações salvas
 ├── requirements.txt  # Dependências Python
 └── README.md
 ```
