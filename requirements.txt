@@ -1,0 +1,6 @@
+customtkinter
+mss
+numpy
+opencv-python
+pydirectinput
+keyboard

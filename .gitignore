@@ -1,0 +1,10 @@
+# Build / PyInstaller
+build/
+dist/
+*.exe
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
