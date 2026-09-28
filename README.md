@@ -3,6 +3,7 @@
 Macro de pesca automática para Windows, feita em Python. Ela detecta o minijogo de pesca na tela (via visão computacional com OpenCV) e controla o mouse automaticamente para manter a barra no lugar certo. Vem com uma interface gráfica (CustomTkinter) para configurar tudo sem mexer no código.
 
 > ⚠️ **Aviso:** automatizar ações em jogos online pode violar os Termos de Serviço do jogo e resultar em punições. Use por sua conta e risco.
+> Este projeto é independente e não tem ligação com o jogo ou com seus desenvolvedores.
 
 ## ✨ Funcionalidades
 
@@ -40,6 +41,10 @@ Slayer2/
 
 1. Baixe o `Slayer2Fish.exe` na aba **Releases** deste repositório.
 2. Coloque o `.exe` em uma pasta e execute (o `config.json` será criado ao lado dele).
+3. Se o Windows mostrar "O Windows protegeu seu computador", clique em
+**Mais informações → Executar assim mesmo**. Se o antivírus bloquear,
+libere o arquivo nas exceções (é um falso positivo comum em programas
+que simulam mouse e teclado).
 
 ### Opção 2 — Rodando pelo código-fonte
 
