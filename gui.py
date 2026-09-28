@@ -4,6 +4,7 @@ import time
 import threading
 import tkinter as tk
 import customtkinter as ctk
+import sys
 
 from Slayer2_Fish import FishingMacro, FramelessBoxSelector
 
@@ -11,8 +12,10 @@ ctk.CTk._windows_set_titlebar_color = lambda self, color_mode: None
 
 ctk.set_appearance_mode("Dark")
 ctk.set_default_color_theme("blue")
-
-
+def resource_path(rel):
+    base = getattr(sys, "_MEIPASS", os.path.dirname(os.path.abspath(__file__)))
+    return os.path.join(base, rel)
+    
 class AutoFishGUI(ctk.CTk):
     def __init__(self):
         super().__init__()
@@ -20,7 +23,8 @@ class AutoFishGUI(ctk.CTk):
         self.title("AutoFish Bot - Configurações")
         self.geometry("520x620")
         self.resizable(False, False)
-
+        self.after(200, lambda: self.iconbitmap(resource_path("icone.ico")))
+        
         self.bind("<Escape>", self.emergency_exit)
         self.macro = FishingMacro("config.json")
 
